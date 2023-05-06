@@ -30,6 +30,7 @@ const Wrapper = styled.div`
     display: grid;
     place-content: center;
     place-items: center;
+    overflow-x: hidden;
 
     .about-me{
     padding:0rem 2rem;

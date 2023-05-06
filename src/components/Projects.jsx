@@ -45,6 +45,7 @@ export default Projects;
 const Wrapper = styled.div`
     margin:4rem 0rem;
     width:100vw;
+    overflow-x: hidden;
     h2{
         font-size:clamp(2rem, 3vw, 2.9rem);
         text-align: center;
