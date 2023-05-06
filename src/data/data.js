@@ -39,7 +39,7 @@ export const myProjects = [
         urlLive:'https://discover-videos.netlify.app/',
         urlGithub:'https://github.com/larissioana/netflix-clone.git',
         title:'Netflix clone',
-        description:'Full stack Next.js App using paswordless authentication with Magic Links, Youtube Api for the content, Hasura Graphql server for user informations.'
+        description:'Full stack Next.js App using passwordless authentication with Magic Link, Youtube Api for the content, Hasura Graphql server for user informations.'
     }
 ]
 
