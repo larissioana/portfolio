@@ -27,7 +27,7 @@ const Projects = () => {
                         ) : (
                         <a href={urlGithub} target="_blank" rel="noreferrer">Source <BsGithub/></a>
                     )}
-                        <a href={urlLive} target="_blank" rel="noreferrer">Live</a>
+                        <a href={urlLive} target="_blank" rel="noreferrer">See Live</a>
                         </div>
                         </div>
             
