@@ -13,7 +13,9 @@ const Projects = () => {
                
                return <div className="project" key={id}>
                 <div className="flex-container">
+                <a href={urlLive} target="_blank" rel="noreferrer">
                <img src={imageUrl} alt='projects'/>
+               </a>
                </div>
                     <div className='project-details'>
                         <h3>{title}</h3>
