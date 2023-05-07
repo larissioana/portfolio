@@ -62,8 +62,9 @@ const Wrapper = styled.div`
         height:auto;
         border-radius: 0%;
         transition:all .2s ease-in;
+
         &:hover{
-            transform:translateY(-5px);
+            transform:scale(1.1);
             opacity:.9;
         }
         

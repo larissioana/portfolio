@@ -13,7 +13,7 @@ const HomePage = () => {
         <h2 className='title'>FrontEnd Developer.</h2>
         <h3 className='name'>Larisa Ioana Oltean &copy;</h3>
         <p>I'm a <span>FrontEnd Developer</span> passionate about creating good-looking user interfaces. My interest is building interactive, responsive, and accessible websites. 
-           My project section containes some websites I have build.
+           My project section containes some websites I have built.
         </p>
        </div>
         <Skills/>
