@@ -49,7 +49,7 @@ const Wrapper = styled.div`
     width:100vw;
     overflow-x: hidden;
     h2{
-        font-size:clamp(2rem, 3vw, 2.9rem);
+        font-size:clamp(2rem, 3vw, 3rem);
         text-align: center;
     }
 

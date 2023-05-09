@@ -17,8 +17,6 @@ const Skills = () => {
 export default Skills;
 
 const Wrapper = styled.div`
-  /* display:grid;
-  place-content: center; */
 
   h4{
   background: -webkit-linear-gradient(top, var(--gradient-clr3), var(--gradient-clr4));
@@ -26,7 +24,7 @@ const Wrapper = styled.div`
   -webkit-text-fill-color: transparent;
   margin-top:5rem;
   text-align: center;
-  font-size:clamp(1.8rem, 3vw, 2.7rem);
+  font-size:clamp(1.8rem, 3vw, 2.5rem);
   }
 
   .technology-icons{

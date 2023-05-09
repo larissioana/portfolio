@@ -28,7 +28,7 @@ const Navigation = ({toggleThemeHandler}) => {
 export default Navigation;
 
 const Nav = styled.nav`
-  background:var(--nav-bg);
+  background:var(--nav-bg);;
   display:flex;
   align-items: center;
   width:100vw;
