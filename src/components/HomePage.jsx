@@ -59,7 +59,7 @@ const Wrapper = styled.div`
   }
 
   h3{
-    font-size:clamp(2.2rem,3vw,3rem);
+    font-size:clamp(2.2rem,3vw,3.1rem);
     font-weight: bolder;
     text-align: center;
     text-transform: uppercase;
