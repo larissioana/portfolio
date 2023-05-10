@@ -13,7 +13,7 @@ const HomePage = () => {
         <h2 className='title'>Frontend Developer.</h2>
         <h3 className='name'>Larisa Ioana Oltean &copy;</h3>
         <p>I'm a <span>Frontend Developer</span> passionate about creating good-looking user interfaces. My interest is building interactive, responsive, and accessible websites. 
-           My project section containes some websites I have built.
+           My project section contains some websites I have built.
         </p>
        </div>
         <Skills/>
@@ -70,6 +70,7 @@ const Wrapper = styled.div`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  
   p{
     color: var(--clr-font);
     max-width:700px;
