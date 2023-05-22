@@ -48,6 +48,7 @@ const Wrapper = styled.div`
     margin:4rem 0rem;
     width:100vw;
     overflow-x: hidden;
+
     h2{
         font-size:clamp(2rem, 3vw, 3rem);
         text-align: center;
@@ -55,7 +56,7 @@ const Wrapper = styled.div`
 
     .projects-container{
         margin-top: 4rem;
-
+     
     
      img{
         width:20rem;

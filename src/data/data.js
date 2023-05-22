@@ -13,7 +13,7 @@ import postgresql from '../assets/postgresql.png';
 import firebase from '../assets/firebase.png';
 import image from '../assets/E-commerce-clothing.png';
 import image2 from '../assets/Face-Recognition.png';
-import image3 from '../assets/Netflix-Clone.png';
+import image3 from '../assets/movies.png';
 
 export const myProjects = [
     {
@@ -22,7 +22,7 @@ export const myProjects = [
         urlLive:'https://e-commerce-clothing-react.netlify.app/',
         urlGithub:'https://github.com/larissioana/e-commerce-clothing.git',
         title:'E-commerce clothing',
-        description:'An E-commerce React App using React functional components and hooks, Firebase authentication, Firestore database, and Stripe Api.'
+        description:'An E-commerce React App using React functional components and hooks, React Router to navigate between pages, Firebase authentication, Firestore database, and Stripe Api to handle payments.'
     },
     {
         id:2,
@@ -31,15 +31,15 @@ export const myProjects = [
         urlGithubBackend:'https://github.com/larissioana/face-recognition-backend.git',
         urlGithub:'https://github.com/larissioana/Face-Recognition.git',
         title:'Face recognition app',
-        description:'A complete React App using React class components, Node.js servers, Postgresql database, and Clarifai Api for face detection in pictures.'
+        description:'A complete React App using React class components, Node.js servers, Postgresql database, and Clarifai Api for face detection in pictures(JPG). The Frontend is styled with Styled Components.'
     },
     {
         id:3,
         imageUrl:image3,
-        urlLive:'https://discover-videos.netlify.app/',
-        urlGithub:'https://github.com/larissioana/netflix-clone.git',
-        title:'Netflix clone',
-        description:'Full stack Next.js App using passwordless authentication with Magic Link, Youtube Api for the content, Hasura Graphql server for user informations.'
+        urlLive:'https://movies-larissioana.vercel.app//',
+        urlGithub:'https://github.com/larissioana/movies.git',
+        title:'Movies',
+        description:' Next.js App using the Movie DB API, Firebase authentication for login functionality, and Framer Motion for animations. The Frontend is styled with Css Modules '
     }
 ]
 
