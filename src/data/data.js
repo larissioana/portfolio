@@ -31,7 +31,7 @@ export const myProjects = [
         urlGithubBackend:'https://github.com/larissioana/face-recognition-backend.git',
         urlGithub:'https://github.com/larissioana/Face-Recognition.git',
         title:'Face recognition app',
-        description:'A complete React App using React class components, Node.js servers, Postgresql database, and Clarifai Api for face detection in pictures(JPG, PNG). The Frontend is styled with Styled Components.'
+        description:'A complete React App using React class components, Clarifai Api for human face detection in pictures (JPG, PNG). It is connected to Postgresql database which stores users details for future logins. The Frontend is styled with Styled Components.'
     },
     {
         id:3,
@@ -39,7 +39,7 @@ export const myProjects = [
         urlLive:'https://movies-larissioana.vercel.app//',
         urlGithub:'https://github.com/larissioana/movies.git',
         title:'Movies',
-        description:' Next.js App using the Movie DB API, Firebase authentication for login functionality, and Framer Motion for animations. The Frontend is styled with Css Modules '
+        description:' Next.js App using the Movie DB API, Firebase authentication for login functionality, and Framer Motion for animations. The rendering methods I have used are Server-Side and Client-Side. The Frontend is styled with Css Modules '
     }
 ]
 
