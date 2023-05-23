@@ -31,7 +31,7 @@ export const myProjects = [
         urlGithubBackend:'https://github.com/larissioana/face-recognition-backend.git',
         urlGithub:'https://github.com/larissioana/Face-Recognition.git',
         title:'Face recognition app',
-        description:'A complete React App using React class components, Clarifai Api for human face detection in pictures (JPG, PNG). It is connected to Postgresql database which stores users details for future logins. The Frontend is styled with Styled Components.'
+        description:'A complete React App using React class components, Clarifai Ai model API for detecting the location of human face in images (JPG, PNG). It is connected to Postgresql database which stores users details for future logins. The Frontend is styled with Styled Components.'
     },
     {
         id:3,
