@@ -10,7 +10,7 @@ const HomePage = () => {
         <Wrapper id="home">
         <div className="about-me">
         <img src={image} alt="Larisa Oltean"/>
-        <h2 className='title'>Frontend Developer.</h2>
+        <h2 className='title'>Frontend Developer</h2>
         <h3 className='name'>Larisa Ioana Oltean &copy;</h3>
         <p>I'm a <span>Frontend Developer</span> passionate about creating good-looking user interfaces. My interest is building interactive, responsive, and accessible websites. 
            My project section contains some websites I have built.
