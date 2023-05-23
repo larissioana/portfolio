@@ -18,12 +18,13 @@ import image3 from '../assets/movies.png';
 export const myProjects = [
     {
         id:1,
-        imageUrl:image,
-        urlLive:'https://e-commerce-clothing-react.netlify.app/',
-        urlGithub:'https://github.com/larissioana/e-commerce-clothing.git',
-        title:'E-commerce clothing',
-        description:'An E-commerce React App using React functional components and hooks, React Router to navigate between pages, Firebase authentication, Firestore database, and Stripe Api to handle payments.'
+        imageUrl:image3,
+        urlLive:'https://movies-larissioana.vercel.app//',
+        urlGithub:'https://github.com/larissioana/movies.git',
+        title:'Movies',
+        description:' Next.js App using the Movie DB API, Firebase authentication for login functionality, and Framer Motion for animations. The rendering methods I have used are Server-Side and Client-Side. The Frontend is styled with Css Modules '
     },
+
     {
         id:2,
         imageUrl:image2,
@@ -35,13 +36,13 @@ export const myProjects = [
     },
     {
         id:3,
-        imageUrl:image3,
-        urlLive:'https://movies-larissioana.vercel.app//',
-        urlGithub:'https://github.com/larissioana/movies.git',
-        title:'Movies',
-        description:' Next.js App using the Movie DB API, Firebase authentication for login functionality, and Framer Motion for animations. The rendering methods I have used are Server-Side and Client-Side. The Frontend is styled with Css Modules '
-    }
-]
+        imageUrl:image,
+        urlLive:'https://e-commerce-clothing-react.netlify.app/',
+        urlGithub:'https://github.com/larissioana/e-commerce-clothing.git',
+        title:'E-commerce clothing',
+        description:'An E-commerce React App using React functional components and hooks, React Router to navigate between pages, Firebase authentication, Firestore database, and Stripe Api to handle payments.'
+    },
+   ]
 
 export const technologyIcons = [
     html5,
