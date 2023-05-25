@@ -43,6 +43,7 @@ export const GlobalStyles = createGlobalStyle`
   li{
     list-style: none;
     padding-left:2rem;
+    color:var(--clr-font);
  
   }
 

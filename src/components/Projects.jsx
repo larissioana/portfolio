@@ -20,6 +20,13 @@ const Projects = () => {
                     <div className='project-details'>
                         <h3>{title}</h3>
                         <p>{description}</p>
+                        <div className="technologies">
+                        {project.technologies.map((data, index) => {
+                            return <div key={index}>
+                             <p className="name">{data}</p>
+                                 </div>
+                        })}
+                        </div>
                         <div className="project-code-and-live">
                         {project.urlGithubBackend ? (
                         <div className="source-code">
@@ -69,6 +76,25 @@ const Wrapper = styled.div`
             opacity:.9;
         }
         
+     }
+
+     .technologies{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top:2rem;
+        color:var(--clr-font);
+      
+        .name{
+            background: -webkit-linear-gradient(right, var(--gradient-clr3) 0%, var(--gradient-clr2) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            padding:.5rem;
+            margin-top:-.6rem;
+            font-size:.9rem;
+            border-radius: 0px 0px 5px 5px;
+        }
      }
     }
     .project{
