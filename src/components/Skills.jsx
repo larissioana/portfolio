@@ -38,7 +38,7 @@ const Wrapper = styled.div`
   flex-direction: row;
   flex-wrap: nowrap;
   width:100vw;
-  animation:animate 60s linear infinite;
+  animation:animate 45s linear infinite;
   
 
 img{
