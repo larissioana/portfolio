@@ -19,6 +19,9 @@ const Navigation = ({toggleThemeHandler}) => {
                 <li>
                     <a href="#projects">Projects</a>
                 </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
             </ul>
 
         </Nav>
@@ -33,7 +36,7 @@ const Nav = styled.nav`
   align-items: center;
   width:100vw;
   height:5rem;
-  padding:0rem 1rem;
+  padding:0rem .5rem 0rem .5rem;
   flex-wrap: wrap;
   position:fixed;
   top:0;
@@ -60,10 +63,10 @@ const Nav = styled.nav`
 
     a{
     text-decoration: none;
-    font-size:clamp(1rem, 2vw, 1.3rem);
+    font-size:clamp(.9rem, 2vw, 1.3rem);
     color: var(--clr-font);
     font-weight: 500;
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
     text-transform: uppercase;
   }
   }

@@ -46,8 +46,8 @@ export default Projects;
 
 const Wrapper = styled.div`
     margin:4rem 0rem;
-    width:100vw;
-    overflow-x: hidden;
+    width:80vw;
+  
 
     h2{
         font-size:clamp(2rem, 3vw, 3rem);
@@ -55,8 +55,8 @@ const Wrapper = styled.div`
     }
 
     .projects-container{
-        margin-top: 4rem;
-     
+     overflow-x: hidden;
+   
     
      img{
         width:20rem;
@@ -135,5 +135,7 @@ const Wrapper = styled.div`
            
         }
     }
+   
+    
 
 `

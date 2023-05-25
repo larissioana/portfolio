@@ -2,6 +2,7 @@ import image from '../assets/image.jpg';
 import styled from 'styled-components';
 import Skills from './Skills';
 import Projects from './Projects';
+import Contact from './Contact';
 
 const HomePage = () => {
   
@@ -11,13 +12,14 @@ const HomePage = () => {
         <div className="about-me">
         <img src={image} alt="Larisa Oltean"/>
         <h2 className='title'>Frontend Developer</h2>
-        <h3 className='name'>Larisa Ioana Oltean &copy;</h3>
+        <h3 className='name'>Larisa Ioana Oltean</h3>
         <p>I'm a <span>Frontend Developer</span> passionate about creating good-looking user interfaces. My interest is building interactive, responsive, and accessible websites. 
            My project section contains some websites I have built.
         </p>
        </div>
         <Skills/>
         <Projects/>
+        <Contact/>
         </Wrapper>
         </>
     )
@@ -31,7 +33,8 @@ const Wrapper = styled.div`
     place-content: center;
     place-items: center;
     overflow-x: hidden;
-
+  
+  
     .about-me{
     padding:0rem 2rem;
     display:flex;

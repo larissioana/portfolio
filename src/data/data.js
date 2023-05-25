@@ -8,12 +8,13 @@ import npm from '../assets/npm.png';
 import nodejs from '../assets/nodejs.png';
 import git from '../assets/git.png'
 import github from '../assets/github.png';
-import sql from '../assets/sql.png';
 import postgresql from '../assets/postgresql.png';
 import firebase from '../assets/firebase.png';
 import image from '../assets/E-commerce-clothing.png';
 import image2 from '../assets/Face-Recognition.png';
 import image3 from '../assets/movies.png';
+import {BsLinkedin, BsGithub} from 'react-icons/bs';
+import {AiOutlineMail} from 'react-icons/ai';
 
 export const myProjects = [
     {
@@ -44,18 +45,84 @@ export const myProjects = [
     },
    ]
 
-export const technologyIcons = [
-    html5,
-    css3,
-    sass,
-    js,
-    react,
-    nextjs,
-    npm,
-    nodejs,
-    git,
-    github,
-    sql,
-    postgresql,
-    firebase
+export const technologyData= [
+    {
+        id:1,
+        imgUrl:html5,
+        title:'HTML5'
+    },
+    {
+        id:2,
+        imgUrl:css3,
+        title:'CSS3'
+    },
+    {
+        id:3,
+        imgUrl:sass,
+        title:'SASS'
+    },
+    {
+        id:4,
+        imgUrl:js,
+        title:'JavaScript'
+    },
+    {
+        id:5,
+        imgUrl:react,
+        title:'React'
+    },
+    {
+        id:6,
+        imgUrl:nextjs,
+        title:'Next.js'
+    },
+    {
+        id:7,
+        imgUrl:npm,
+        title:'NPM'
+    },
+    {
+        id:8,
+        imgUrl:nodejs,
+        title:'NODE'
+    },
+    {
+        id:9,
+        imgUrl:git,
+        title:'Git'
+    },
+    {
+        id:10,
+        imgUrl:github,
+        title:'Github'
+    },
+    {
+        id:11,
+        imgUrl:postgresql,
+        title:'Postgresql'
+    },
+    {
+        id:12,
+        imgUrl:firebase,
+        title:'Firebase'
+    },
+    
+];
+
+export const contactData = [
+    {
+        id:1,
+        icon: <BsGithub/>,
+        url:'https://github.com/larissioana'
+    },
+    {
+        id:2,
+        icon: <BsLinkedin/>,
+        url:'https://www.linkedin.com/in/larisa-ioana-oltean-1a874320b/'
+    },
+    {
+        id:3,
+        icon:<AiOutlineMail/>,
+        url:'mailto:larissoltean@gmail.com'
+    }
 ]

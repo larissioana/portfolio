@@ -1,13 +1,16 @@
 import styled from "styled-components";
-import { technologyIcons } from '../data/data';
+import { technologyData } from '../data/data';
 
 const Skills = () => {
     return (
         <Wrapper>
          <h4>My skills:</h4>
          <div className="technology-icons">
-        {technologyIcons.map((icon, index) => {
-            return  <img src={icon} alt="technology icons" key={index}/>
+        {technologyData.map((data) => {
+          const {id, imgUrl} = data
+            return <div className="technology-container" key={id}>
+             <img src={imgUrl} alt="technology icons"/>
+             </div>
          })}
         </div>
         </Wrapper>
@@ -35,7 +38,7 @@ const Wrapper = styled.div`
   flex-direction: row;
   flex-wrap: nowrap;
   width:100vw;
-  animation:animate 25s linear infinite;
+  animation:animate 60s linear infinite;
   
 
 img{
@@ -45,7 +48,9 @@ img{
   object-fit: cover;
   padding-bottom:3rem;
   border-radius: 0%;
+  position:r
 }
+
  }
 
  @keyframes animate {

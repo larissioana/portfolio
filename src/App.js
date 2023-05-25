@@ -2,7 +2,7 @@ import { GlobalStyles } from "./Globalstyles";
 import { useState, useEffect } from "react";
 import Navigation from "./components/Navigation";
 import HomePage from './components/HomePage';
-
+import Footer from './components/Footer';
 
 const getStorageTheme = () => {
  let theme = 'dark-theme';
@@ -34,6 +34,7 @@ function App() {
     <GlobalStyles/>
     <Navigation toggleThemeHandler={toggleTheme}/>
     <HomePage/>
+    <Footer/>
     </div>
   );
 }

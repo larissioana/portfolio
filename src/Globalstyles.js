@@ -30,9 +30,8 @@ export const GlobalStyles = createGlobalStyle`
       --gradient-clr3:#F7ADA5;
       --gradient-clr4:#ffd900;
      }
- :root{
-  scrollbar-width: none;
- }
+
+
   body{
     background: var(--bg);
     overflow-x:hidden;
@@ -40,11 +39,6 @@ export const GlobalStyles = createGlobalStyle`
     
   }
 
-::-webkit-scrollbar{
-    scrollbar-width: none;
-    display:none;
-    background:transparent;
-  }
 
   li{
     list-style: none;
