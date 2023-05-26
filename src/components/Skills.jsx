@@ -9,7 +9,7 @@ const Skills = () => {
          <h4>My skills:</h4>
          <div className="technology-icons">
         {technologyData.map((data) => {
-          const {id, imgUrl, title} = data
+          const {id, imgUrl} = data
             return <div className="flex-container" key={id}>
             <div className="technology-container" >
              <img src={imgUrl} alt="technology icons"/>

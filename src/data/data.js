@@ -58,62 +58,62 @@ export const technologyData= [
     {
         id:1,
         imgUrl:html5,
-        title:'Html5'
+      
     },
     {
         id:2,
         imgUrl:css3,
-        title:'Css3'
+        
     },
     {
         id:3,
         imgUrl:sass,
-        title:'Sass'
+       
     },
     {
         id:4,
         imgUrl:js,
-        title:'JavaScript'
+        
     },
     {
         id:5,
         imgUrl:react,
-        title:'React'
+       
     },
     {
         id:6,
         imgUrl:nextjs,
-        title:'Next.js'
+      
     },
     {
         id:7,
         imgUrl:npm,
-        title:'NPM'
+        
     },
     {
         id:8,
         imgUrl:nodejs,
-        title:'Node.js'
+      
     },
     {
         id:9,
         imgUrl:git,
-        title:'Git'
+      
     },
     {
         id:10,
         imgUrl:github,
-        title:'Github'
+     
     },
     {
         id:11,
         imgUrl:postgresql,
-        title:'Postgresql'
+        
     },
     {
         id:12,
         imgUrl:firebase,
-        title:'Firebase'
+      
     },
     
 ];
