@@ -2,18 +2,25 @@ import styled from "styled-components";
 import { technologyData } from '../data/data';
 
 const Skills = () => {
+
     return (
+      <>
         <Wrapper>
          <h4>My skills:</h4>
          <div className="technology-icons">
         {technologyData.map((data) => {
-          const {id, imgUrl} = data
-            return <div className="technology-container" key={id}>
+          const {id, imgUrl, title} = data
+            return <div className="flex-container" key={id}>
+            <div className="technology-container" >
              <img src={imgUrl} alt="technology icons"/>
+            </div>
              </div>
+              
          })}
+
         </div>
         </Wrapper>
+        </>
     )
 };
 
@@ -40,6 +47,19 @@ const Wrapper = styled.div`
   width:100vw;
   animation:animate 45s linear infinite;
   
+  .technology-container{
+    position:relative;
+    padding:.7rem;
+ 
+ 
+  }
+
+  .flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
 
 img{
   margin-left:1.3rem;
@@ -48,7 +68,7 @@ img{
   object-fit: cover;
   padding-bottom:3rem;
   border-radius: 0%;
-  position:r
+ 
 }
 
  }
@@ -61,5 +81,4 @@ img{
     transform: translateX(-100%);
   }
 }
-   
 `;

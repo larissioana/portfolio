@@ -9,13 +9,12 @@ const Projects = () => {
         <h2>Projects</h2>
         <div className="projects-container">
             {myProjects.map((project) => {
-                const {id, imageUrl, title, description, urlGithub, urlLive, urlGithubBackend} = project;
+                const {id, imageUrl, secondImg, title, description, urlGithub, urlLive, urlGithubBackend} = project;
                
                return <div className="project" key={id}>
                 <div className="flex-container">
-                <a href={urlLive} target="_blank" rel="noreferrer">
-               <img src={imageUrl} alt='projects'/>
-               </a>
+               <img className="firstImg" src={imageUrl} alt='projects'/>
+               <img className="secondImg" src={secondImg} alt='projects'/>
                </div>
                     <div className='project-details'>
                         <h3>{title}</h3>
@@ -52,30 +51,43 @@ const Projects = () => {
 export default Projects;
 
 const Wrapper = styled.div`
-    margin:4rem 0rem;
+    margin:4rem 2rem;
     width:80vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
   
-
-    h2{
+  
+   h2{
         font-size:clamp(2rem, 3vw, 3rem);
         text-align: center;
     }
 
-    .projects-container{
-     overflow-x: hidden;
-   
-    
-     img{
-        width:20rem;
-        height:auto;
-        border-radius: 0%;
-        transition:all .2s ease-in;
 
-        &:hover{
-            transform:scale(1.1);
-            opacity:.9;
-        }
+    .flex-container, .project-details{
+        flex:1;
+       
+    }
+
+    .flex-container{
+        position:relative;
+    }
+
+     .firstImg{
+        width:20%;
+        min-width:10vw;
+        height:auto;
+        margin-left:2rem;
+        border-radius: 0%;
+        position:absolute;
+        bottom:2rem;
         
+     }
+
+     .secondImg{
+        min-width: 110%;
+        width:40vw;
+        height:auto;
      }
 
      .technologies{
@@ -85,24 +97,25 @@ const Wrapper = styled.div`
         flex-wrap: wrap;
         margin-top:2rem;
         color:var(--clr-font);
+        
       
         .name{
             background: -webkit-linear-gradient(right, var(--gradient-clr3) 0%, var(--gradient-clr2) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            padding:.5rem;
+            line-height: 1.9rem;
             margin-top:-.6rem;
+            padding:.4rem;
             font-size:.9rem;
             border-radius: 0px 0px 5px 5px;
         }
      }
-    }
+    
     .project{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        width:100%;
         padding:4rem 2rem;
        
         
@@ -116,8 +129,9 @@ const Wrapper = styled.div`
         box-shadow: 2px 0px 5px var(--gradient-clr3);
         background: rgba(15, 13, 14, .9);
         border-radius: .4rem;
-        width:30rem;
         padding:1rem 0rem;
+        width:25rem;
+        min-width:18rem;
      
 
         h3{
@@ -154,14 +168,12 @@ const Wrapper = styled.div`
             height:2rem;
             text-align: center;
             padding:.3rem 0rem;
-            cursor:pointer;
             margin-top:2rem;
             margin-left:.7rem;
          
            
         }
     }
-   
-    
+
 
 `

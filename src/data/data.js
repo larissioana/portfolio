@@ -11,8 +11,11 @@ import github from '../assets/github.png';
 import postgresql from '../assets/postgresql.png';
 import firebase from '../assets/firebase.png';
 import image from '../assets/E-commerce-clothing.png';
+import imageLg from '../assets/E-commerce-lg.png';
 import image2 from '../assets/Face-Recognition.png';
+import imageLg2 from '../assets/face-recognition-lg.png'
 import image3 from '../assets/movies.png';
+import imageLg3 from '../assets/movies-lg.png'
 import {BsLinkedin, BsGithub} from 'react-icons/bs';
 import {AiOutlineMail} from 'react-icons/ai';
 
@@ -20,6 +23,7 @@ export const myProjects = [
     {
         id:1,
         imageUrl:image3,
+        secondImg:imageLg3,
         urlLive:'https://movies-larissioana.vercel.app//',
         urlGithub:'https://github.com/larissioana/movies.git',
         title:'Movies',
@@ -30,6 +34,7 @@ export const myProjects = [
     {
         id:2,
         imageUrl:image2,
+        secondImg:imageLg2,
         urlLive:'https://larissioana.github.io/Face-Recognition/',
         urlGithubBackend:'https://github.com/larissioana/face-recognition-backend.git',
         urlGithub:'https://github.com/larissioana/Face-Recognition.git',
@@ -40,6 +45,7 @@ export const myProjects = [
     {
         id:3,
         imageUrl:image,
+        secondImg:imageLg,
         urlLive:'https://e-commerce-clothing-react.netlify.app/',
         urlGithub:'https://github.com/larissioana/e-commerce-clothing.git',
         title:'E-commerce clothing',
@@ -52,17 +58,17 @@ export const technologyData= [
     {
         id:1,
         imgUrl:html5,
-        title:'HTML5'
+        title:'Html5'
     },
     {
         id:2,
         imgUrl:css3,
-        title:'CSS3'
+        title:'Css3'
     },
     {
         id:3,
         imgUrl:sass,
-        title:'SASS'
+        title:'Sass'
     },
     {
         id:4,
@@ -87,7 +93,7 @@ export const technologyData= [
     {
         id:8,
         imgUrl:nodejs,
-        title:'NODE'
+        title:'Node.js'
     },
     {
         id:9,
