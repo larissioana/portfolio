@@ -14,12 +14,11 @@ const Skills = () => {
             <div className="technology-container" >
              <img src={imgUrl} alt="technology icons"/>
             </div>
-             </div>
-              
-         })}
-
-        </div>
+            </div>
+            })}
+         </div>
         </Wrapper>
+    
         </>
     )
 };
@@ -45,19 +44,25 @@ const Wrapper = styled.div`
   flex-direction: row;
   flex-wrap: nowrap;
   width:100vw;
-  animation:animate 45s linear infinite;
+  animation:animate 35s linear infinite;
+  
   
   .technology-container{
     position:relative;
     padding:.7rem;
+    display:flex;
+    flex-direction: column;
+
  
  
   }
 
   .flex-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+  
   
   }
 
@@ -70,8 +75,7 @@ img{
   border-radius: 0%;
  
 }
-
- }
+}
 
  @keyframes animate {
   0%{
@@ -81,4 +85,6 @@ img{
     transform: translateX(-100%);
   }
 }
+
 `;
+

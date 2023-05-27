@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import {TbMoonFilled} from 'react-icons/tb';
 import {BsSunFill} from 'react-icons/bs';
 import {GrMenu} from 'react-icons/gr';
@@ -8,9 +8,27 @@ import styled from 'styled-components';
 const Navigation = ({toggleThemeHandler}) => {
     const[toggleBtn, setToggleBtn] = useState(true);
     const [navToggle, setNavToggle] = useState(false);
+    const [heightOfNavbar, setHeightOfNavbar] = useState(false);
+   
+    useEffect(() => {
+     
+        const changeHeight = () => {
+            if(window.scrollY > 0) {
+              setHeightOfNavbar(true);
+            } else {
+              setHeightOfNavbar(false);
+            }
+            
+        };
+        window.addEventListener('scroll', changeHeight);
+       return () =>  window.removeEventListener('scroll', changeHeight);
+    
+    },[heightOfNavbar]);
+   
+
 
     return (
-        <Nav>
+        <Nav className={`${heightOfNavbar ? 'active' : ""}`}>
             <div className="toggle-btn" onClick={toggleThemeHandler}>
                 <button onClick={() => setToggleBtn(!toggleBtn)}>
                     {toggleBtn? <BsSunFill/> 
@@ -50,14 +68,19 @@ const Nav = styled.nav`
   display:flex;
   align-items: center;
   width:100vw;
-  height:5rem;
+  height:100px;
   padding:0rem 2rem 0rem 2rem;
   flex-wrap: wrap;
   position:fixed;
   top:0;
   left:0;
-  backdrop-filter: blur(8px);
   z-index:10;
+  transition: all .3s ease-in;
+
+  &.active{
+   height: 130px;
+   backdrop-filter:blur(20px);
+  }
 
   .toggle-btn, .nav-links{
     flex:1;
@@ -89,46 +112,53 @@ const Nav = styled.nav`
   }
   }
 
+
   .toggle-nav button{
     width:4rem;
     border:none;
     font-size:1.4rem;
     cursor:pointer;
     display: none;
-    height:3rem;
+    padding:1rem;
     clip-path: circle();
     background:var(--toggle-btn);
-  
+    color:#17181a;
+    font-weight: bolder;
     .menu-icon{
     width:2rem;
     height:2rem;
     padding:.5rem;
+    
    
 }
  }
 
-  
-
   @media (max-width:768px){
-    
+
+    .toggle-btn, .toggle-nav{
+        z-index:10;
+       
+    }
   .toggle-nav button{
     display:block;
+   
 
   }
        .links{
         position: absolute;
-        top:12vh;
+        top:0vh;
         right:0;
         display:grid;
         width:100%;
         min-height:100vh;
-        background: -webkit-linear-gradient(bottom, var(--gradient-clr2) 0%, var(--gradient-clr1) 100%);;
+        background:var(--bg);
         transform: scale(0);
         transition:.4s ease-in-out;
 
        a{
-            color: white;
+            color: var(--clr-font);
             font-size:1.2rem;
+  
             
         }
         ul{
@@ -145,5 +175,6 @@ const Nav = styled.nav`
     
   }
   }
+
 `
 

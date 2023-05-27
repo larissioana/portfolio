@@ -51,8 +51,8 @@ const Projects = () => {
 export default Projects;
 
 const Wrapper = styled.div`
-    margin:4rem 2rem;
-    width:80vw;
+    margin:4rem 0rem;
+    width:70vw;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -74,10 +74,12 @@ const Wrapper = styled.div`
     }
 
      .firstImg{
-        width:20%;
-        min-width:10vw;
+        width:22%;
+        min-width:22%;
+        /* width:15%;
+        min-width:15vw; */
         height:auto;
-        margin-left:2rem;
+        /* margin-left:0rem; */
         border-radius: 0%;
         position:absolute;
         bottom:2rem;
@@ -85,8 +87,7 @@ const Wrapper = styled.div`
      }
 
      .secondImg{
-        min-width: 110%;
-        width:40vw;
+        min-width: 100%;
         height:auto;
      }
 
@@ -103,10 +104,12 @@ const Wrapper = styled.div`
             background: -webkit-linear-gradient(right, var(--gradient-clr3) 0%, var(--gradient-clr2) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            line-height: 1.9rem;
+            line-height: 1.7rem;
             margin-top:-.6rem;
-            padding:.4rem;
+            padding:.5rem;
+            -webkit-text-stroke: 1px var(--gradient-clr2);
             font-size:.9rem;
+            margin-left:.5rem;
             border-radius: 0px 0px 5px 5px;
         }
      }
@@ -116,7 +119,8 @@ const Wrapper = styled.div`
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        padding:4rem 2rem;
+        padding:4rem 0rem;
+        width:100%;
        
         
     }
@@ -130,8 +134,9 @@ const Wrapper = styled.div`
         background: rgba(15, 13, 14, .9);
         border-radius: .4rem;
         padding:1rem 0rem;
-        width:25rem;
-        min-width:18rem;
+        max-width:28rem;
+        min-width:19rem;
+    
      
 
         h3{
@@ -142,6 +147,7 @@ const Wrapper = styled.div`
             color: #f7f7f7;
             line-height: 1.4;
             max-width:25rem;
+            padding:0rem .5rem;
         }
 
         .project-code-and-live{
@@ -174,6 +180,5 @@ const Wrapper = styled.div`
            
         }
     }
-
 
 `

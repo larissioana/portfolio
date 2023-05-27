@@ -57,63 +57,59 @@ export const myProjects = [
 export const technologyData= [
     {
         id:1,
-        imgUrl:html5,
+        imgUrl:html5
       
     },
     {
         id:2,
-        imgUrl:css3,
+        imgUrl:css3
         
     },
     {
         id:3,
-        imgUrl:sass,
+        imgUrl:sass
        
     },
     {
         id:4,
-        imgUrl:js,
+        imgUrl:js
         
     },
     {
         id:5,
-        imgUrl:react,
+        imgUrl:react
        
     },
     {
         id:6,
-        imgUrl:nextjs,
-      
+        imgUrl:nextjs
     },
     {
         id:7,
-        imgUrl:npm,
+        imgUrl:npm
         
     },
     {
         id:8,
-        imgUrl:nodejs,
-      
+        imgUrl:nodejs
     },
     {
         id:9,
-        imgUrl:git,
-      
+        imgUrl:git
     },
     {
         id:10,
-        imgUrl:github,
+        imgUrl:github
      
     },
     {
         id:11,
-        imgUrl:postgresql,
+        imgUrl:postgresql
         
     },
     {
         id:12,
-        imgUrl:firebase,
-      
+        imgUrl:firebase 
     },
     
 ];
