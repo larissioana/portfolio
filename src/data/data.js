@@ -123,7 +123,7 @@ export const contactData = [
     {
         id:2,
         icon: <BsLinkedin/>,
-        url:'https://www.linkedin.com/in/larisa-ioana-oltean-1a874320b/'
+        url:'https://www.linkedin.com/in/larisaoltean'
     },
     {
         id:3,
