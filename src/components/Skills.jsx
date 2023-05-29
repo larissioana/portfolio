@@ -62,7 +62,6 @@ const Wrapper = styled.section`
     margin-left:2.5rem;
     width:8rem;
     height:8rem;
-    box-shadow: var(--gradient-clr1) 0px 0px 18px;
     transition: all .3s ease-in;
     border-radius: .2rem;
     cursor:pointer;
