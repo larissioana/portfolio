@@ -47,7 +47,7 @@ const Wrapper = styled.section`
   flex-direction: row;
   flex-wrap: nowrap;
   width:100vw;
-  animation:animate 35s linear infinite;
+  animation:animate 40s linear infinite;
   &:hover{
     animation-play-state: paused;
   }
@@ -59,7 +59,7 @@ const Wrapper = styled.section`
     place-items: center;
     padding-top:1rem;
     padding-right:1.2rem;
-    margin-left:2.5rem;
+    margin-left:0rem;
     width:8rem;
     height:8rem;
     transition: all .3s ease-in;
