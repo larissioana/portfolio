@@ -57,59 +57,71 @@ export const myProjects = [
 export const technologyData= [
     {
         id:1,
-        imgUrl:html5
+        imgUrl:html5,
+        name:'Html5'
       
     },
     {
         id:2,
-        imgUrl:css3
+        imgUrl:css3,
+        name:'Css3'
         
     },
     {
         id:3,
-        imgUrl:sass
+        imgUrl:sass,
+        name:'Sass'
        
     },
     {
         id:4,
-        imgUrl:js
+        imgUrl:js,
+        name:'JavaScript'
         
     },
     {
         id:5,
-        imgUrl:react
+        imgUrl:react,
+        name:'React'
        
     },
     {
         id:6,
-        imgUrl:nextjs
+        imgUrl:nextjs,
+        name:'Next.js'
     },
     {
         id:7,
-        imgUrl:npm
+        imgUrl:npm,
+        name:'Npm'
         
     },
     {
         id:8,
-        imgUrl:nodejs
+        imgUrl:nodejs,
+        name:'Node.js'
     },
     {
         id:9,
-        imgUrl:git
+        imgUrl:git,
+        name:'Git'
     },
     {
         id:10,
-        imgUrl:github
+        imgUrl:github,
+        name:'Github'
      
     },
     {
         id:11,
-        imgUrl:postgresql
+        imgUrl:postgresql,
+        name:'Postgresql'
         
     },
     {
         id:12,
-        imgUrl:firebase 
+        imgUrl:firebase,
+        name:'Firebase'
     },
     
 ];

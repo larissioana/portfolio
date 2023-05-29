@@ -14,7 +14,8 @@ const getStorageTheme = () => {
 };
 
 function App() {
-  const [theme, setTheme] = useState(getStorageTheme())
+  const [theme, setTheme] = useState(getStorageTheme());
+  const [navToggle, setNavToggle] = useState(false);
   
   const toggleTheme = () => {
    if(theme === 'light-theme') {
@@ -32,8 +33,8 @@ function App() {
   return (
     <div className="App">
     <GlobalStyles/>
-    <Navigation toggleThemeHandler={toggleTheme}/>
-    <HomePage/>
+    <Navigation toggleThemeHandler={toggleTheme} setNavToggle={setNavToggle} navToggle={navToggle}/>
+    <HomePage navToggle={navToggle}/>
     <Footer/>
     </div>
   );

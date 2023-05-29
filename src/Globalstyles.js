@@ -18,7 +18,9 @@ export const GlobalStyles = createGlobalStyle`
       --gradient-clr2: #d57ebf;
       --gradient-clr3:#af9cdf;
       --gradient-clr4:#c40494;
+     
   }
+  
   
   .dark-theme{
     --nav-bg: rgba(15, 13, 14, .6);
@@ -36,7 +38,7 @@ export const GlobalStyles = createGlobalStyle`
     background: var(--bg);
     overflow-x:hidden;
     scroll-behavior: smooth;
-    
+  
   }
 
 
@@ -46,6 +48,5 @@ export const GlobalStyles = createGlobalStyle`
     color:var(--clr-font);
  
   }
-
  
 `

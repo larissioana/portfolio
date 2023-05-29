@@ -6,13 +6,14 @@ const Skills = () => {
     return (
       <>
         <Wrapper>
-         <h4>My skills:</h4>
+         <h2 className="skills-title">skills.</h2>
          <div className="technology-icons">
         {technologyData.map((data) => {
-          const {id, imgUrl} = data
+          const {id, imgUrl, name} = data
             return <div className="flex-container" key={id}>
             <div className="technology-container" >
              <img src={imgUrl} alt="technology icons"/>
+             <p>{name}</p>
             </div>
             </div>
             })}
@@ -25,15 +26,17 @@ const Skills = () => {
 
 export default Skills;
 
-const Wrapper = styled.div`
-
-  h4{
+const Wrapper = styled.section`
+  margin: 4rem 0rem;
+ 
+  .skills-title{
   background: -webkit-linear-gradient(top, var(--gradient-clr3), var(--gradient-clr4));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top:5rem;
   text-align: center;
   font-size:clamp(1.8rem, 3vw, 2.5rem);
+  text-transform: lowercase;
   }
 
   .technology-icons{
@@ -45,13 +48,34 @@ const Wrapper = styled.div`
   flex-wrap: nowrap;
   width:100vw;
   animation:animate 35s linear infinite;
-  
+  &:hover{
+    animation-play-state: paused;
+  }
+
   
   .technology-container{
     position:relative;
-    padding:.7rem;
-    display:flex;
-    flex-direction: column;
+    display:grid;
+    place-items: center;
+    padding-top:1rem;
+    padding-right:1.2rem;
+    margin-left:2.5rem;
+    width:8rem;
+    height:8rem;
+    box-shadow: var(--gradient-clr1) 0px 0px 18px;
+    transition: all .3s ease-in;
+    border-radius: .2rem;
+    cursor:pointer;
+    &:hover{
+      transform: scale(1.1);
+    }
+
+    p{
+      position:absolute;
+      top:6.5rem;
+      font-size:.9rem;
+      color:var(--clr-font);
+    }
 
  
  
@@ -85,6 +109,7 @@ img{
     transform: translateX(-100%);
   }
 }
+
 
 `;
 

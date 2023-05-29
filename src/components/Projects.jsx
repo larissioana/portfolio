@@ -6,7 +6,7 @@ const Projects = () => {
    
     return (
         <Wrapper id="projects">
-        <h2>Projects</h2>
+        <h2 className="projects-title">projects.</h2>
         <div className="projects-container">
             {myProjects.map((project) => {
                 const {id, imageUrl, secondImg, title, description, urlGithub, urlLive, urlGithubBackend} = project;
@@ -58,15 +58,14 @@ const Wrapper = styled.div`
     justify-content: center;
   
   
-   h2{
-        font-size:clamp(2rem, 3vw, 3rem);
+   .projects-title{
+        font-size:clamp(1.8rem, 3vw, 2.5rem);
         text-align: center;
+        text-transform: lowercase;
     }
-
 
     .flex-container, .project-details{
         flex:1;
-       
     }
 
     .flex-container{
@@ -76,14 +75,10 @@ const Wrapper = styled.div`
      .firstImg{
         width:22%;
         min-width:22%;
-        /* width:15%;
-        min-width:15vw; */
         height:auto;
-        /* margin-left:0rem; */
         border-radius: 0%;
         position:absolute;
         bottom:2rem;
-        
      }
 
      .secondImg{
@@ -99,8 +94,7 @@ const Wrapper = styled.div`
         margin-top:2rem;
         color:var(--clr-font);
         
-      
-        .name{
+       .name{
             background: -webkit-linear-gradient(right, var(--gradient-clr3) 0%, var(--gradient-clr2) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -121,9 +115,7 @@ const Wrapper = styled.div`
         flex-wrap: wrap;
         padding:4rem 0rem;
         width:100%;
-       
-        
-    }
+     }
 
     .project-details{
         display:grid;
@@ -137,9 +129,7 @@ const Wrapper = styled.div`
         max-width:28rem;
         min-width:19rem;
     
-     
-
-        h3{
+       h3{
             font-size:clamp(1rem, 2vw, 1.4rem);
         }
         p{
@@ -176,9 +166,7 @@ const Wrapper = styled.div`
             padding:.3rem 0rem;
             margin-top:2rem;
             margin-left:.7rem;
-         
-           
-        }
+         }
     }
 
 `
