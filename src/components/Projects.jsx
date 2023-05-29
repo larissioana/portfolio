@@ -72,6 +72,12 @@ const Wrapper = styled.div`
         position:relative;
     }
 
+    h3{
+            font-size:clamp(1rem, 2vw, 1.4rem);
+            color:var(--toggle-btn);
+            padding-bottom: 1rem;
+        }
+
      .firstImg{
         width:22%;
         min-width:22%;
@@ -129,9 +135,7 @@ const Wrapper = styled.div`
         max-width:28rem;
         min-width:19rem;
     
-       h3{
-            font-size:clamp(1rem, 2vw, 1.4rem);
-        }
+      
         p{
             font-size:clamp(.8rem, 2vw, 1rem);
             color: #f7f7f7;
