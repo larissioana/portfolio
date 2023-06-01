@@ -6,7 +6,7 @@ const Projects = () => {
    
     return (
         <Wrapper id="projects">
-        <h2 className="projects-title">projects.</h2>
+        <h1 className="projects-title">projects.</h1>
         <div className="projects-container">
             {myProjects.map((project) => {
                 const {id, imageUrl, secondImg, title, description, urlGithub, urlLive, urlGithubBackend} = project;
@@ -50,7 +50,7 @@ const Projects = () => {
 
 export default Projects;
 
-const Wrapper = styled.div`
+const Wrapper = styled.section`
     margin:4rem 0rem;
     width:70vw;
     display:flex;
@@ -59,7 +59,7 @@ const Wrapper = styled.div`
   
   
    .projects-title{
-        font-size:clamp(1.8rem, 3vw, 2.5rem);
+        font-size:clamp(1.8rem, 3vw, 2rem);
         text-align: center;
         text-transform: lowercase;
     }

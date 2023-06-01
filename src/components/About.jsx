@@ -3,8 +3,8 @@ import styled from "styled-components";
 const About = () => {
     return (
         <AboutSection id='about'>
-        <h2 className="about-me">about.</h2>
-        <p>I'm a <span>Frontend Developer</span> based in Vienna. I'm passionate about creating good-looking user interfaces and great user experiences. My interest is building interactive, responsive, and accessible websites. I have built Single-Page-Apps using React, static and server-side websites with Next.js, as well as user authentication functionality with Node.js/Express.js. <br/>
+        <h1 className="about-me">about.</h1>
+        <p>I'm Larisa, a <span>Frontend Developer</span> based in Vienna. I'm passionate about creating good-looking user interfaces and great user experiences. My interest is building interactive, responsive, and accessible websites. I have built Single-Page-Apps using React, static and server-side websites with Next.js, as well as user authentication functionality with Node.js/Express.js. <br/>
            My project section contains some websites I have built.
         </p>
         </AboutSection>
@@ -23,7 +23,7 @@ const AboutSection = styled.section`
   -webkit-text-fill-color: transparent;
   margin-top:5rem;
   text-align: center;
-  font-size:clamp(1.8rem, 3vw, 2.5rem);
+  font-size:clamp(1.8rem, 3vw, 2rem);
   text-transform: lowercase;
     }
     

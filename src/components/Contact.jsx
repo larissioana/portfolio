@@ -18,7 +18,7 @@ const Contact = () => {
 
 export default Contact;
 
-const Wrapper = styled.div`
+const Wrapper = styled.section`
     color: var(--clr-font);
     display:flex;
     justify-content: center;

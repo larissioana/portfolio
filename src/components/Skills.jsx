@@ -6,7 +6,7 @@ const Skills = () => {
     return (
       <>
         <Wrapper>
-         <h2 className="skills-title">skills.</h2>
+         <h1 className="skills-title">skills.</h1>
          <div className="technology-icons">
         {technologyData.map((data) => {
           const {id, imgUrl, name} = data
@@ -35,7 +35,7 @@ const Wrapper = styled.section`
   -webkit-text-fill-color: transparent;
   margin-top:5rem;
   text-align: center;
-  font-size:clamp(1.8rem, 3vw, 2.5rem);
+  font-size:clamp(1.8rem, 3vw, 2rem);
   text-transform: lowercase;
   }
 

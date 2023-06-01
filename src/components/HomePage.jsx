@@ -10,7 +10,7 @@ import Contact from './Contact';
       return (
         <>
         {navToggle ?
-          <Wrapper className='home-wrapper'>
+          <Wrapper>
             <Section id="home">
             <div className="container">
             <div className='profile-picture-container'>
