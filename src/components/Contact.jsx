@@ -24,6 +24,7 @@ const Wrapper = styled.section`
     justify-content: center;
     align-items: center;
     margin:0rem 0rem 2rem 0rem;
+   scroll-snap-align: end;
 
     a{
         color:var(--clr-font);

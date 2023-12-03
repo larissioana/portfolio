@@ -51,10 +51,11 @@ import Contact from './Contact';
   const Wrapper = styled.div`
   background:var(--bg);
   filter: blur(10px);
+
   `
 
   const Section = styled.section`
-
+      scroll-snap-align: start;
       padding:10rem 0rem 0rem;
       display: grid;
       place-content: center;

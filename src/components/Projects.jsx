@@ -56,7 +56,7 @@ const Wrapper = styled.section`
     display:flex;
     flex-direction: column;
     justify-content: center;
-  
+    scroll-snap-align: start;
   
    .projects-title{
         font-size:clamp(1.8rem, 3vw, 2rem);

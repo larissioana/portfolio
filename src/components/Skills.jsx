@@ -28,7 +28,7 @@ export default Skills;
 
 const Wrapper = styled.section`
   margin: 4rem 0rem;
- 
+
   .skills-title{
   background: -webkit-linear-gradient(top, var(--gradient-clr3), var(--gradient-clr4));
   -webkit-background-clip: text;

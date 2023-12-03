@@ -16,6 +16,7 @@ export default About;
 const AboutSection = styled.section`
     margin-top:-1rem;
     padding:0rem 2rem;
+    scroll-snap-align: start;
 
     .about-me{
   background: -webkit-linear-gradient(top, var(--gradient-clr1), var(--gradient-clr2));

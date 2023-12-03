@@ -10,8 +10,6 @@ import git from '../assets/git.png'
 import github from '../assets/github.png';
 import postgresql from '../assets/postgresql.png';
 import firebase from '../assets/firebase.png';
-import image from '../assets/E-commerce-clothing.png';
-import imageLg from '../assets/E-commerce-lg.png';
 import image2 from '../assets/Face-Recognition.png';
 import imageLg2 from '../assets/face-recognition-lg.png'
 import image3 from '../assets/movies.png';
@@ -41,16 +39,6 @@ export const myProjects = [
         title:'Face recognition app',
         description:'A complete React App using React class components, Clarifai Ai model API for detecting the location of human face in images (JPG, PNG). It is connected to Postgresql database which stores users details for future logins.',
         technologies:['React', 'Styled-Components', 'API', 'Node.js', 'Postgresql', 'Heroku' ]
-    },
-    {
-        id:3,
-        imageUrl:image,
-        secondImg:imageLg,
-        urlLive:'https://e-commerce-clothing-react.netlify.app/',
-        urlGithub:'https://github.com/larissioana/e-commerce-clothing.git',
-        title:'E-commerce clothing',
-        description:'An E-commerce React App using React functional components and hooks, React Router to navigate between pages, Firebase authentication, Firestore database, and Stripe Api to handle payments.',
-        technologies:['React', 'Styled-Components', 'Firebase', 'Firestore', 'Stripe API']
     },
    ]
 

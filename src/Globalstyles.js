@@ -33,6 +33,9 @@ export const GlobalStyles = createGlobalStyle`
       --gradient-clr4:#ffd900;
      }
 
+    html{
+      scroll-snap-type: y proximity;
+   }
 
   body{
     background: var(--bg);
