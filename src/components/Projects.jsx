@@ -2,7 +2,8 @@ import { myProjects } from "../data/data";
 import styled from "styled-components";
 import {BsGithub} from 'react-icons/bs';
 
-const Projects = () => {
+const Projects = () =>
+{
    
     return (
         <Wrapper id="projects">
@@ -23,7 +24,7 @@ const Projects = () => {
                         {project.technologies.map((data, index) => {
                             return <div key={index}>
                              <p className="name">{data}</p>
-                                 </div>
+                                </div>
                         })}
                         </div>
                         <div className="project-code-and-live">
@@ -101,13 +102,13 @@ const Wrapper = styled.section`
         color:var(--clr-font);
         
        .name{
-            background: -webkit-linear-gradient(right, var(--gradient-clr3) 0%, var(--gradient-clr2) 100%);
+            background: -webkit-linear-gradient(right, var(--gradient-clr1) 0%, var(--gradient-clr4) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             line-height: 1.7rem;
             margin-top:-.6rem;
             padding:.5rem;
-            -webkit-text-stroke: 1px var(--gradient-clr2);
+            -webkit-text-stroke: 1px var(--gradient-clr1);
             font-size:.9rem;
             margin-left:.5rem;
             border-radius: 0px 0px 5px 5px;

@@ -4,7 +4,7 @@ const About = () => {
     return (
         <AboutSection id='about'>
         <h1 className="about-me">about.</h1>
-        <p>I'm Larisa, a <span>Frontend Developer</span> based in Vienna. I'm passionate about creating good-looking user interfaces and great user experiences. My interest is building interactive, responsive, and accessible websites. I have built Single-Page-Apps using React, static and server-side websites with Next.js, as well as user authentication functionality with Node.js/Express.js. <br/>
+        <p>I'm Larisa, a <span>dedicated Frontend Developer</span> based in Vienna. My expertise lies in developing interactive, responsive, and accessible websites. I specialize in building Single-Page-Apps using React, static and server-side websites with Next.js, and implementing secure user authentication functionalities with Node.js/Express.js. <br/>
            My project section contains some websites I have built.
         </p>
         </AboutSection>
@@ -19,7 +19,7 @@ const AboutSection = styled.section`
     scroll-snap-align: start;
 
     .about-me{
-  background: -webkit-linear-gradient(top, var(--gradient-clr1), var(--gradient-clr2));
+  background: -webkit-linear-gradient(top, var(--gradient-clr1), var(--gradient-clr1));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top:5rem;
@@ -29,7 +29,7 @@ const AboutSection = styled.section`
     }
     
     h1{
-  background: -webkit-linear-gradient(top, var(--gradient-clr3), var(--gradient-clr4));
+  background: -webkit-linear-gradient(top, var(--gradient-clr2), var(--gradient-clr2));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top:4rem;
@@ -47,7 +47,7 @@ const AboutSection = styled.section`
   
 
    span{
-    background: -webkit-linear-gradient(right, var(--gradient-clr1) 0%, var(--gradient-clr2) 100%);
+    background: -webkit-linear-gradient(right, var(--gradient-clr1) 0%, var(--gradient-clr1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size:1.3rem;

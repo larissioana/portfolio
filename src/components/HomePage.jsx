@@ -90,20 +90,20 @@ import Contact from './Contact';
       font-size:clamp(1.4rem, 2vw, 2rem);
       margin-top:2rem;
       text-align: center;
-      background: -webkit-linear-gradient(right, var(--gradient-clr1) 0%, var(--gradient-clr2) 100%);
+      background: -webkit-linear-gradient(right, var(--gradient-clr1) 0%, var(--gradient-clr4) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
 
     h2{
-      font-size:clamp(2.2rem,3vw,3.1rem);
+      font-size: clamp(2.2rem,3vw,3.1rem);
       font-weight: bolder;
       text-align: center;
       text-transform: uppercase;
       text-align: center;
       letter-spacing:  .1rem;
       margin-top:1rem;
-      background: -webkit-linear-gradient(right, var(--gradient-clr1) 0%, var(--gradient-clr2) 100%);
+      background: -webkit-linear-gradient(right, var(--gradient-clr1) 0%, var(--gradient-clr4) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }

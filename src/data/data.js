@@ -13,9 +13,11 @@ import firebase from '../assets/firebase.png';
 import image2 from '../assets/Face-Recognition.png';
 import imageLg2 from '../assets/face-recognition-lg.png'
 import image3 from '../assets/movies.png';
-import imageLg3 from '../assets/movies-lg.png'
-import {BsLinkedin, BsGithub} from 'react-icons/bs';
-import {AiOutlineMail} from 'react-icons/ai';
+import imageLg3 from '../assets/movies-lg.png';
+import image4 from '../assets/E-commerce-clothing.png';
+import imageLg4 from '../assets/E-commerce-lg.png';
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
+import { AiOutlineMail } from 'react-icons/ai';
 
 export const myProjects = [
     {
@@ -28,7 +30,6 @@ export const myProjects = [
         description:' Next.js App using the Movie DB API, Firebase authentication for login functionality, and Framer Motion for animations. The rendering methods I have used are Server-Side and Client-Side.',
         technologies: ['Next.js', 'API', 'Firebase', 'Css Modules', 'Framer Motion']
     },
-
     {
         id:2,
         imageUrl:image2,
@@ -40,9 +41,20 @@ export const myProjects = [
         description:'A complete React App using React class components, Clarifai Ai model API for detecting the location of human face in images (JPG, PNG). It is connected to Postgresql database which stores users details for future logins.',
         technologies:['React', 'Styled-Components', 'API', 'Node.js', 'Postgresql', 'Heroku' ]
     },
+    {
+        id:3,
+        imageUrl:image4,
+        secondImg:imageLg4,
+        urlLive:'https://e-commerce-clothing-react.netlify.app/',
+        urlGithub:'https://github.com/larissioana/e-commerce-clothing.git',
+        title:'E-commerce clothing app',
+        description:'An E-commerce clothing shopping web application built with React, Stripe API and Firebase for user registration and authentification.',
+        technologies:['React', 'Styled-Components', 'Firebase Google Auth', 'Stripe API' ]
+    },
    ]
 
-export const technologyData= [
+export const technologyData =
+[
     {
         id:1,
         imgUrl:html5,
@@ -114,7 +126,8 @@ export const technologyData= [
     
 ];
 
-export const contactData = [
+export const contactData =
+[
     {
         id:1,
         icon: <BsGithub/>,
