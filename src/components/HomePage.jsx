@@ -1,4 +1,4 @@
-import image from '../assets/image.jpg';
+import image from '../assets/image.png';
 import styled from 'styled-components';
 import About from './About';
 import Skills from './Skills';
