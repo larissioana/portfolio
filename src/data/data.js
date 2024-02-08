@@ -14,8 +14,6 @@ import image2 from '../assets/Face-Recognition.png';
 import imageLg2 from '../assets/face-recognition-lg.png'
 import image3 from '../assets/movies.png';
 import imageLg3 from '../assets/movies-lg.png';
-import image4 from '../assets/E-commerce-clothing.png';
-import imageLg4 from '../assets/E-commerce-lg.png';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
 
