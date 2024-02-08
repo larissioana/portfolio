@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Footer = () => {
     return (
         <FooterStyle>
-            <p>&copy; Larisa Ioana Oltean</p>
+            <p>&copy; 2024 Larisa Ioana Oltean</p>
         </FooterStyle>
     )
 };

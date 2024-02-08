@@ -25,7 +25,7 @@ export const myProjects = [
         urlLive:'https://tmdb-woad-beta.vercel.app/',
         urlGithub:'https://github.com/larissioana/TMDB.git',
         title:'Movies',
-        description:' Next.js App using The Movie DataBase API, Firebase authentication for login functionality, and Framer Motion for animations.',
+        description:' Next.js App with functionalities such as search capabilities, pagination, movie details, embedded Youtube trailers, actor profiles, information on various movie genres, and a modern responsive design. ',
         technologies: ['Next.js', 'TMDB API', 'Firebase', 'Css Modules', 'Framer Motion', 'MUI', 'ReactPlayer', 'React Modal', 'Axios', 'Github', 'Vercel']
     },
     {
