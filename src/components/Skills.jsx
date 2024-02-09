@@ -29,11 +29,16 @@ const Skills = () =>
 export default Skills;
 
 const Wrapper = styled.section`
-margin: 4rem 0rem;
+margin: 4rem 2rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
 
 .skills-title
 {
-  background: -webkit-linear-gradient(top, var(--gradient-clr3), var(--gradient-clr4));
+  background: -webkit-linear-gradient(top, var(--gradient-clr1), var(--gradient-clr4));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 5rem;
@@ -47,27 +52,21 @@ margin: 4rem 0rem;
   margin-top: 4rem;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  width: 100vw;
-  animation:animate 40s linear infinite;
-
-  &:hover
-  {
-    animation-play-state: paused;
-  }
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 65%;
+  box-shadow: 0px 0px 7px 0px var(--gradient-clr1);
+  padding: 2rem;
+  border-radius: .1rem;
   
 .technology-container
 {
     position: relative;
-    display: grid;
-    place-items: center;
-    padding-top: 1rem;
-    padding-right: 1.2rem;
-    margin-left: 0rem;
-    width: 8rem;
-    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 0rem;
+    width: 100%;
     transition: all .3s ease-in;
     border-radius: .2rem;
     cursor: pointer;

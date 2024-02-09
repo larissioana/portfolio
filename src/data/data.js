@@ -14,6 +14,9 @@ import image2 from '../assets/Face-Recognition.png';
 import imageLg2 from '../assets/face-recognition-lg.png'
 import image3 from '../assets/movies.png';
 import imageLg3 from '../assets/movies-lg.png';
+import figma from '../assets/figma.png';
+import ts from '../assets/ts.png';
+import gitlab from '../assets/gitlab.png';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
 
@@ -79,6 +82,12 @@ export const technologyData =
         name:'Next.js'
     },
     {
+        id:15,
+        imgUrl:ts,
+        name:'TypeScript'
+     
+    },
+    {
         id:7,
         imgUrl:npm,
         name:'Npm'
@@ -101,6 +110,12 @@ export const technologyData =
      
     },
     {
+        id:13,
+        imgUrl:gitlab,
+        name:'Gitlab'
+     
+    },
+    {
         id:11,
         imgUrl:postgresql,
         name:'Postgresql'
@@ -110,6 +125,11 @@ export const technologyData =
         id:12,
         imgUrl:firebase,
         name:'Firebase'
+    },
+    {
+        id:14,
+        imgUrl:figma,
+        name:'Figma'
     },
     
 ];

@@ -39,11 +39,12 @@ const AboutSection = styled.section`
 
     p{
     color: var(--clr-font);
-    max-width:700px;
+    max-width:900px;
     text-align:center;
     font-size:clamp(1.1rem, 2vw, 1.2rem);
     margin-top:1.8rem;
     line-height: 1.4;
+    padding: 0rem 5rem;
   
 
    span{
