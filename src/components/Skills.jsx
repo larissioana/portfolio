@@ -29,7 +29,7 @@ const Skills = () =>
 export default Skills;
 
 const Wrapper = styled.section`
-margin: 4rem 2rem;
+margin: -1rem 2rem -2rem;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -49,15 +49,21 @@ flex-wrap: wrap;
 
 .technology-icons
 {
-  margin-top: 4rem;
+  margin-top: 2rem;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 65%;
-  box-shadow: 0px 0px 7px 0px var(--gradient-clr1);
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow-y: auto;
   padding: 2rem;
   border-radius: .1rem;
+  animation: animate 40s infinite linear;
+
+.technology-container:hover 
+{
+  animation-play-state: paused;
+}
   
 .technology-container
 {

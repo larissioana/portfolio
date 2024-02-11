@@ -14,9 +14,14 @@ const About = () => {
 export default About;
 
 const AboutSection = styled.section`
-    margin-top:-1rem;
+    margin-top:-1rem ;
     padding:0rem 2rem;
     scroll-snap-align: start;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     .about-me{
   background: -webkit-linear-gradient(top, var(--gradient-clr1), var(--gradient-clr1));
@@ -39,20 +44,24 @@ const AboutSection = styled.section`
 
     p{
     color: var(--clr-font);
-    max-width:900px;
+    width: 700px;
     text-align:center;
-    font-size:clamp(1.1rem, 2vw, 1.2rem);
+    font-size:clamp(.9rem, 2vw, 1.2rem);
     margin-top:1.8rem;
     line-height: 1.4;
-    padding: 0rem 5rem;
-  
+    padding: 0rem 2rem;
 
    span{
     background: -webkit-linear-gradient(right, var(--gradient-clr1) 0%, var(--gradient-clr1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size:1.3rem;
+    font-size:clamp(1.1rem, 2vw, 1.3rem);
     font-weight: bolder;
   }
 }
+@media only screen and (max-width: 600px) {
+        p {
+            width: 100%; 
+        }
+    }
 `
