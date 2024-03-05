@@ -76,7 +76,7 @@ const Wrapper = styled.section`
     h3{
             font-size:clamp(1rem, 2vw, 1.4rem);
             color:var(--toggle-btn);
-            padding-bottom: 1rem;
+            padding: 1rem;
         }
 
      .firstImg{
@@ -89,7 +89,7 @@ const Wrapper = styled.section`
      }
 
      .secondImg{
-        min-width: 100%;
+        width: 25rem;
         height:auto;
      }
 
@@ -173,5 +173,11 @@ const Wrapper = styled.section`
             margin-left:.7rem;
          }
     }
-
+@media screen and (max-width: 400px)
+{
+    .secondImg
+    {
+        width: 20rem;
+    }
+}
 `

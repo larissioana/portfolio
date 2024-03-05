@@ -30,7 +30,7 @@ import Contact from './Contact';
           <Section id="home">
           <div className="container">
           <div className='profile-picture-container'>
-          <img src={image} alt="Larisa's profile portrait"/>
+          <img src={image} alt="Larisa's profile portrait" width = "200"/>
           </div>
           <h1 className='title'>Frontend Developer</h1>
           <h2 className='name'>Larisa Ioana Oltean</h2>
@@ -79,8 +79,6 @@ import Contact from './Contact';
   }
 
     img{
-      width:9rem;
-      height:9rem;
       object-fit: cover;
       object-position: top;
       border-radius: 50%;

@@ -4,7 +4,8 @@ const About = () => {
     return (
         <AboutSection id='about'>
         <h1 className="about-me">about.</h1>
-        <p>I'm Larisa, a <span>dedicated Frontend Developer</span> based in Vienna. My expertise lies in developing interactive, responsive, and accessible websites. I specialize in building Single-Page-Apps using React, static and server-side websites with Next.js, and implementing secure user authentication functionalities with Node.js/Express.js. <br/>
+        <p>Hey there <span role="img" aria-label="wave">👋</span>, I'm Larisa, a <span>passionate Frontend Developer</span> based in Vienna. My expertise lies in developing interactive, responsive, and accessible websites. I specialize in building dynamic Single-Page Applications using React. I leverage React’s component-based architecture and state management capabilities to create user interfaces that enhance user interaction and experience.
+In addition to React, I develop both static and server-side rendered websites in Next js, and also implement secure user authentication functionalities with Node.js/Express.js <br/>
            My project section contains some websites I have built.
         </p>
         </AboutSection>
@@ -44,7 +45,7 @@ const AboutSection = styled.section`
 
     p{
     color: var(--clr-font);
-    width: 700px;
+    width: 800px;
     text-align:center;
     font-size:clamp(.9rem, 2vw, 1.2rem);
     margin-top:1.8rem;
