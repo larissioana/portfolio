@@ -94,7 +94,7 @@ import Contact from './Contact';
     }
 
     h2{
-      font-size: clamp(2.2rem,3vw,3.1rem);
+      font-size: clamp(1.6rem,3vw,3.1rem);
       font-weight: bolder;
       text-align: center;
       text-transform: uppercase;

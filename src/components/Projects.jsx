@@ -76,7 +76,7 @@ const Wrapper = styled.section`
     h3{
             font-size:clamp(1rem, 2vw, 1.4rem);
             color:var(--toggle-btn);
-            padding: 1rem;
+            padding: 1rem 1rem 1rem 2rem;
         }
 
      .firstImg{
