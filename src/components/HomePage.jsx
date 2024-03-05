@@ -67,15 +67,14 @@ import Contact from './Contact';
       display:flex;
       justify-content: center;
       align-items: center;
-      flex-wrap: wrap;
       flex-direction: column;
+    }
+
+    .profile-picture-container{
+      width:100%;
+      display: flex;
       justify-content: center;
       align-items: center;
-    
-    }
-    .profile-picture-container{
-      width:9rem;
-
   }
 
     img{
