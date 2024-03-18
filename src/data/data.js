@@ -29,7 +29,7 @@ export const myProjects = [
         urlGithub: 'https://github.com/larissioana/TMDB.git',
         title: 'Movies and TV Series with Genre Filters and Detailed Information',
         description: 'This project is a comprehensive movie and TV series applicaton that provides users with access to a vast collection of movies, TV series, and public persons information. It offers various functionalities such as genre filtering, pagination, and detailed information. Users can browse movies and TV series by popular genres such as action, comedy, drama, etc. To manage large datasets effectively, pagination is implemented.',
-        technologies: ['Next.js', 'Server-side rendering', 'Client-side rendering', 'Image optimization', 'Responsive Design', 'TMDB API', 'Css Modules', 'Framer Motion', 'MUI', 'ReactPlayer', 'React Tooltip', 'React Modal', 'Github', 'Vercel']
+        technologies: ['Next.js', 'Server-side rendering', 'Client-side rendering', 'Responsive Design', 'TMDB API', 'Css Modules', 'ReactPlayer', 'React Tooltip', 'Github', 'Vercel']
     },
     {
         id: 2,
